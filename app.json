@@ -4,16 +4,15 @@
     "slug": "wish-list",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/images/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1AAACF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +21,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "io.alejo.WishList",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "io.alejo.WishList",
+      "versionCode": 1
     }
   }
 }
